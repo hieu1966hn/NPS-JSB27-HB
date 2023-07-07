@@ -45,3 +45,16 @@ Box-Model
 * Margin: 4 hướng được.
 
 - Với thẻ có thuộc tính: inline-block; Kết hợp cả 2 thuộc tính.
+
+- class: nhóm các thẻ mong muốn có cùng thuộc tính được khai báo:
+
+* Tính tái sử dụng
+* Khá tiện và gọn vì không còn cần phải gọi tên thẻ khi style VD: div{color: red;} => đúng hơn: .red{color: red;}
+
+- id: Sử dụng cho duy nhất 1 thẻ trong dự án.
+
+* Ít sử dụng
+
+Cách style với CSS:
+.red{}: class
+#blue{}: id

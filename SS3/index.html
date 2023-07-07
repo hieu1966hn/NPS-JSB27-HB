@@ -5,12 +5,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+
+  <style>
+    /* style class hello nằm trong thẻ class item */
+    .item .hello {
+      color: red;
+    }
+  </style>
 </head>
 
 <body>
 
   <!-- Ví dụ về inline  -->
-
+  <!-- 
   <h1>Thuộc tính display: inline</h1>
   <div>Đây là thẻ div
     <div style="display: inline;
@@ -18,18 +25,25 @@
      padding: 50px;
      margin: 50px;
      ">Đây là thẻ div có thuộc tính INLINE</div>
-  </div>
-
-
+  </div> -->
   <!-- Ví dụ về block -->
-  <h1>Thuộc tính display: inline</h1>
+  <!-- <h1>Thuộc tính display: inline</h1>
   <div>Đây là thẻ div
     <div style="display: block;
     border: 1px solid black;
      padding: 50px;
      margin: 50px;
     ">Đây là thẻ div có thuộc tính <mark>INLINE</mark> </div>
+  </div> -->
+
+  <div class="container">
+    <div class="item">
+      <!-- style class hello có màu đỏ -->
+      <div class="hello">Hello World</div>
+    </div>
   </div>
+  <!-- style class hello không có màu đỏ? -->
+  <div class="hello">Hi, How are you?</div>
 
 </body>
 
