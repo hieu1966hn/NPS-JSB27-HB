@@ -1,0 +1,29 @@
+/* Style cho từng thẻ có class item */
+
+.container .item {
+  width: 50px;
+  height: 50px;
+  background-color: brown;
+  margin: 20px;
+}
+
+.item.blue {
+  background-color: blue;
+}
+
+/* display: flex */
+.container {
+  display: flex;
+  /* mặc định khi flex sẽ là row */
+  flex-direction: row;
+
+  /* dàn xếp item */
+  justify-content: space-evenly;
+
+  /* order */
+
+}
+
+.blue {
+  order: -1;
+}

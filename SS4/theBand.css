@@ -1,0 +1,56 @@
+/* Ép kiểu trang web về mặc định */
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+
+/* Phần style navigation */
+.container .navigation {
+  background-color: #000;
+  height: 32px;
+  line-height: 32px;
+}
+
+.container .navigation a {
+  color: #fff;
+  padding: 10px;
+  height: 100%;
+
+}
+
+.container .navigation a:hover {
+  background-color: rgb(166, 159, 159);
+  color: black;
+}
+
+
+#home {
+  width: 1024px;
+  margin: auto;
+}
+
+#home .img-box {
+  width: 100%;
+}
+
+#home .img-box .img {
+  width: 100%;
+}
+
+.margin-top {
+  margin-top: 30px;
+}
+
+#about .title {
+  font-size: x-large;
+  text-align: center;
+}
+
+
+#members .box-member {
+  display: flex;
+  /* flex-direction: row; */
+
+}

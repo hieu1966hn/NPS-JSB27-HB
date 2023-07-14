@@ -58,3 +58,15 @@ Box-Model
 Cách style với CSS:
 .red{}: class
 #blue{}: id
+
+Display: flex;
+
+- flex-direction: chọn chiều trục chính (mặc định là: row)
+- justify-content: Căn vị trí nội dung của các phần tử con
+
+* left/right/center: theo vị trí từng hướng (all các item ở vị trí đó)
+* space-around: Dàn đều các item. Khoảng cách các item bằng nhau (lề trái + lề phải == khoảng cách các item)
+* space-between:Dàn đều các item. Khoảng cách các item bằng nhau (item trái, phải ngoài cùng đều trùng với đường viền thẻ cha).
+* space-evenly: Khoảng cách các item bằng nhau và bằng khoảng cách từ item cuối -> lề.
+
+order
