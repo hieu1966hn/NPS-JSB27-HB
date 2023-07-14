@@ -31,11 +31,11 @@
   margin: auto;
 }
 
-#home .img-box {
+.img-box {
   width: 100%;
 }
 
-#home .img-box .img {
+.img {
   width: 100%;
 }
 
@@ -43,8 +43,8 @@
   margin-top: 30px;
 }
 
-#about .title {
-  font-size: x-large;
+.title {
+  font-size: xx-large;
   text-align: center;
 }
 
@@ -52,5 +52,17 @@
 #members .box-member {
   display: flex;
   /* flex-direction: row; */
+  justify-content: space-around;
+}
 
+
+#members .box-member .img-box {
+  width: 25%;
+}
+
+
+/* Style phần contact */
+#contact .contact-title {
+  letter-spacing: 5px;
+  font-weight: 200;
 }
