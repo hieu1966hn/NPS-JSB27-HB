@@ -113,3 +113,8 @@ p {
   width: 100%;
   height: auto;
 }
+
+/* Làm mượt scrolling */
+html {
+  scroll-behavior: smooth;
+}
